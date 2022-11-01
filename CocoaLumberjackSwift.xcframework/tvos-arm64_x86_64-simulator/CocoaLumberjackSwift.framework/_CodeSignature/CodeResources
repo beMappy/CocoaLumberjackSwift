@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CocoaLumberjackSwift-Swift.h</key>
 		<data>
-		tRRhwL/p9PlBjYLe/fBQFbHB9gI=
+		MMWqDyEZKmm/puj1NQII/RwaKwY=
 		</data>
 		<key>Headers/CocoaLumberjackSwift.h</key>
 		<data>
@@ -18,35 +18,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jJm1HlKgzhMp58PYtqpYRLk1Wvg=
+		ENfO8IFSWGwUfvzG5snWBQz+f10=
 		</data>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		anqJuTf9H4zvk2EPjINoqVoCMVQ=
+		TuchVCZXCDkQGQ4Be3x2ZJJcOpQ=
 		</data>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		N184MgU3bEDFd/k3Q5l2H4nHW+U=
+		fPjMiAi6WlOh8cpFzVGUBQOYC1I=
+		</data>
+		<key>Modules/CocoaLumberjackSwift.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
+		<data>
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		HbtJ/SH1Rn0iwX4RG3CVI21UJYY=
+		obOUOOriIF8lHKsG8/fAQ/YC75Y=
 		</data>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		rhjVL8gIQ7QmBoRVbEjpN7/rGo8=
+		q2yveGSgBiWbYnPsrlr36GbjiMY=
+		</data>
+		<key>Modules/CocoaLumberjackSwift.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
+		<data>
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		58F8KTFjj6o7z2naefVcsLr+XBM=
+		SmVD9tgKVkOANzIlG5jsARBThiw=
 		</data>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		0HRrt/mzvS29+0OVt9mhlJKW65Q=
+		V4nWbpgXW6Oav4K2kaDpEjzrhWE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		QJtbw5Yjv3bIMsyKS6gQY7Ut7LQ=
+		mTA9m7jk92cnqZh8w9v9Bp8SJzM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tRRhwL/p9PlBjYLe/fBQFbHB9gI=
+			MMWqDyEZKmm/puj1NQII/RwaKwY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BnCqSu49tJwVZf74cEZNXU1QzVL+tOTojBO/uerz5Gc=
+			RPswgGUaXe478NK5la14SrLIkhwbVJg5GKoNRUHrivI=
 			</data>
 		</dict>
 		<key>Headers/CocoaLumberjackSwift.h</key>
@@ -88,77 +96,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			anqJuTf9H4zvk2EPjINoqVoCMVQ=
+			TuchVCZXCDkQGQ4Be3x2ZJJcOpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			P8C8cAL8SXXNM9grDRWO8F3Ochf4O1+csIYj2yS7/Ww=
+			qiR4eW3KLnAib2F1MtTYv1ujoqd+/QMWOouvdmWXJVo=
 			</data>
 		</dict>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N184MgU3bEDFd/k3Q5l2H4nHW+U=
+			fPjMiAi6WlOh8cpFzVGUBQOYC1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			KEa7/E88nTWnpETQtco+6Uih9yhe7YH31Q/Ns1E8JTY=
+			SK6rS3OEkzFBIKPzLqJGAm4CjT+B7K7j1/dmvexQCKg=
+			</data>
+		</dict>
+		<key>Modules/CocoaLumberjackSwift.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HbtJ/SH1Rn0iwX4RG3CVI21UJYY=
+			obOUOOriIF8lHKsG8/fAQ/YC75Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			2MGD6LuRF5khIAOp5WAr7zKWQYYX2pln/h7LGjd6/Vs=
+			JNsMFfflZIAc6viQPQL0vBaBNkQaYjZXHjw1UWp0eqQ=
 			</data>
 		</dict>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rhjVL8gIQ7QmBoRVbEjpN7/rGo8=
+			q2yveGSgBiWbYnPsrlr36GbjiMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ydMKqxuLaxixPbmwuixfN/5P4UA3bsaQjhflhjlb0hc=
+			ROm7UIZuPppjhJ7Cdjb5SEOHkSNh8mJX4IxuG89jfV0=
+			</data>
+		</dict>
+		<key>Modules/CocoaLumberjackSwift.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			58F8KTFjj6o7z2naefVcsLr+XBM=
+			SmVD9tgKVkOANzIlG5jsARBThiw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ovnfr2vu/s+y4a4ksyKlbCRiBNiuSuB30t9tvLKcCsg=
+			qHQgt/SjA2MakNCUtPW9mxbfULu2oz1K2tOm4f78apQ=
 			</data>
 		</dict>
 		<key>Modules/CocoaLumberjackSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0HRrt/mzvS29+0OVt9mhlJKW65Q=
+			V4nWbpgXW6Oav4K2kaDpEjzrhWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			EMyLaoJBMH0RasT83GVRiIGdDLpJvgP6U2STeEAMJhI=
+			Rx2z4lru72e/M/XsO0TF+UNGfVlXeRTlmJIiRZmu9YY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QJtbw5Yjv3bIMsyKS6gQY7Ut7LQ=
+			mTA9m7jk92cnqZh8w9v9Bp8SJzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			mFQCyPlraxBQ6DL6tPKivQNlSZR6C9PdFU3sB72H9cE=
+			9G286d/hy21XlWypUhzPfux2AY/Lk/4DHGJlHdZGMv4=
 			</data>
 		</dict>
 	</dict>
