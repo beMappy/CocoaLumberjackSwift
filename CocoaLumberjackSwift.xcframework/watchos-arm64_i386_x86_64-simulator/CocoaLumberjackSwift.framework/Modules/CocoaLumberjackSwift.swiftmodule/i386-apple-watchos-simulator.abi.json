@@ -3,7 +3,1548 @@
     "kind": "Root",
     "name": "TopLevel",
     "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Function",
+        "name": "DDAssert",
+        "printedName": "DDAssert(_:_:level:context:file:function:line:tag:asynchronous:ddlog:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Swift.Bool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Swift.String",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ],
+            "hasDefaultArg": true
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "hasDefaultArg": true,
+            "usr": "c:@E@DDLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "hasDefaultArg": true,
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLog",
+            "printedName": "CocoaLumberjack.DDLog",
+            "hasDefaultArg": true,
+            "usr": "c:objc(cs)DDLog"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift8DDAssert__5level7context4file8function4line3tag12asynchronous5ddlogySbyXK_SSyXKSo10DDLogLevelVSis12StaticStringVANSuypSgSbSo0M0CtF",
+        "mangledName": "$s20CocoaLumberjackSwift8DDAssert__5level7context4file8function4line3tag12asynchronous5ddlogySbyXK_SSyXKSo10DDLogLevelVSis12StaticStringVANSuypSgSbSo0M0CtF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DDAssertionFailure",
+        "printedName": "DDAssertionFailure(_:level:context:file:function:line:tag:asynchronous:ddlog:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Swift.String",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ],
+            "hasDefaultArg": true
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "hasDefaultArg": true,
+            "usr": "c:@E@DDLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "hasDefaultArg": true,
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLog",
+            "printedName": "CocoaLumberjack.DDLog",
+            "hasDefaultArg": true,
+            "usr": "c:objc(cs)DDLog"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift18DDAssertionFailure_5level7context4file8function4line3tag12asynchronous5ddlogySSyXK_So10DDLogLevelVSis12StaticStringVANSuypSgSbSo0N0CtF",
+        "mangledName": "$s20CocoaLumberjackSwift18DDAssertionFailure_5level7context4file8function4line3tag12asynchronous5ddlogySSyXK_So10DDLogLevelVSis12StaticStringVANSuypSgSbSo0N0CtF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "CocoaLumberjack",
+        "printedName": "CocoaLumberjack",
+        "declKind": "Import",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "dynamicLogLevel",
+        "printedName": "dynamicLogLevel",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "usr": "c:@E@DDLogLevel"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20CocoaLumberjackSwift15dynamicLogLevelSo05DDLogF0Vvp",
+        "mangledName": "$s20CocoaLumberjackSwift15dynamicLogLevelSo05DDLogF0Vvp",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogLevel",
+                "printedName": "CocoaLumberjack.DDLogLevel",
+                "usr": "c:@E@DDLogLevel"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift15dynamicLogLevelSo05DDLogF0Vvg",
+            "mangledName": "$s20CocoaLumberjackSwift15dynamicLogLevelSo05DDLogF0Vvg",
+            "moduleName": "CocoaLumberjackSwift",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogLevel",
+                "printedName": "CocoaLumberjack.DDLogLevel",
+                "usr": "c:@E@DDLogLevel"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift15dynamicLogLevelSo05DDLogF0Vvs",
+            "mangledName": "$s20CocoaLumberjackSwift15dynamicLogLevelSo05DDLogF0Vvs",
+            "moduleName": "CocoaLumberjackSwift",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift15dynamicLogLevelSo05DDLogF0VvM",
+            "mangledName": "$s20CocoaLumberjackSwift15dynamicLogLevelSo05DDLogF0VvM",
+            "moduleName": "CocoaLumberjackSwift",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "resetDynamicLogLevel",
+        "printedName": "resetDynamicLogLevel()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift20resetDynamicLogLevelyyF",
+        "mangledName": "$s20CocoaLumberjackSwift20resetDynamicLogLevelyyF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "defaultDebugLevel",
+        "printedName": "defaultDebugLevel",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "usr": "c:@E@DDLogLevel"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20CocoaLumberjackSwift17defaultDebugLevelSo05DDLogF0Vvp",
+        "mangledName": "$s20CocoaLumberjackSwift17defaultDebugLevelSo05DDLogF0Vvp",
+        "moduleName": "CocoaLumberjackSwift",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogLevel",
+                "printedName": "CocoaLumberjack.DDLogLevel",
+                "usr": "c:@E@DDLogLevel"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift17defaultDebugLevelSo05DDLogF0Vvg",
+            "mangledName": "$s20CocoaLumberjackSwift17defaultDebugLevelSo05DDLogF0Vvg",
+            "moduleName": "CocoaLumberjackSwift",
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogLevel",
+                "printedName": "CocoaLumberjack.DDLogLevel",
+                "usr": "c:@E@DDLogLevel"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift17defaultDebugLevelSo05DDLogF0Vvs",
+            "mangledName": "$s20CocoaLumberjackSwift17defaultDebugLevelSo05DDLogF0Vvs",
+            "moduleName": "CocoaLumberjackSwift",
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift17defaultDebugLevelSo05DDLogF0VvM",
+            "mangledName": "$s20CocoaLumberjackSwift17defaultDebugLevelSo05DDLogF0VvM",
+            "moduleName": "CocoaLumberjackSwift",
+            "deprecated": true,
+            "implicit": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "resetDefaultDebugLevel",
+        "printedName": "resetDefaultDebugLevel()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift22resetDefaultDebugLevelyyF",
+        "mangledName": "$s20CocoaLumberjackSwift22resetDefaultDebugLevelyyF",
+        "moduleName": "CocoaLumberjackSwift",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "asyncLoggingEnabled",
+        "printedName": "asyncLoggingEnabled",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20CocoaLumberjackSwift19asyncLoggingEnabledSbvp",
+        "mangledName": "$s20CocoaLumberjackSwift19asyncLoggingEnabledSbvp",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift19asyncLoggingEnabledSbvg",
+            "mangledName": "$s20CocoaLumberjackSwift19asyncLoggingEnabledSbvg",
+            "moduleName": "CocoaLumberjackSwift",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift19asyncLoggingEnabledSbvs",
+            "mangledName": "$s20CocoaLumberjackSwift19asyncLoggingEnabledSbvs",
+            "moduleName": "CocoaLumberjackSwift",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:20CocoaLumberjackSwift19asyncLoggingEnabledSbvM",
+            "mangledName": "$s20CocoaLumberjackSwift19asyncLoggingEnabledSbvM",
+            "moduleName": "CocoaLumberjackSwift",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "_DDLogMessage",
+        "printedName": "_DDLogMessage(_:level:flag:context:file:function:line:tag:asynchronous:ddlog:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Any",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "usr": "c:@E@DDLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogFlag",
+            "printedName": "CocoaLumberjack.DDLogFlag",
+            "usr": "c:@E@DDLogFlag"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "usr": "s:Su"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLog",
+            "printedName": "CocoaLumberjack.DDLog",
+            "usr": "c:objc(cs)DDLog"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift13_DDLogMessage_5level4flag7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSo0D4FlagVSis12StaticStringVAQSuypSgSbSo0D0CtF",
+        "mangledName": "$s20CocoaLumberjackSwift13_DDLogMessage_5level4flag7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSo0D4FlagVSis12StaticStringVAQSuypSgSbSo0D0CtF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DDLogDebug",
+        "printedName": "DDLogDebug(_:level:context:file:function:line:tag:asynchronous:ddlog:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Any",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "hasDefaultArg": true,
+            "usr": "c:@E@DDLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "hasDefaultArg": true,
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLog",
+            "printedName": "CocoaLumberjack.DDLog",
+            "hasDefaultArg": true,
+            "usr": "c:objc(cs)DDLog"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift10DDLogDebug_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "mangledName": "$s20CocoaLumberjackSwift10DDLogDebug_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DDLogInfo",
+        "printedName": "DDLogInfo(_:level:context:file:function:line:tag:asynchronous:ddlog:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Any",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "hasDefaultArg": true,
+            "usr": "c:@E@DDLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "hasDefaultArg": true,
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLog",
+            "printedName": "CocoaLumberjack.DDLog",
+            "hasDefaultArg": true,
+            "usr": "c:objc(cs)DDLog"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift9DDLogInfo_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "mangledName": "$s20CocoaLumberjackSwift9DDLogInfo_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DDLogWarn",
+        "printedName": "DDLogWarn(_:level:context:file:function:line:tag:asynchronous:ddlog:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Any",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "hasDefaultArg": true,
+            "usr": "c:@E@DDLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "hasDefaultArg": true,
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLog",
+            "printedName": "CocoaLumberjack.DDLog",
+            "hasDefaultArg": true,
+            "usr": "c:objc(cs)DDLog"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift9DDLogWarn_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "mangledName": "$s20CocoaLumberjackSwift9DDLogWarn_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DDLogVerbose",
+        "printedName": "DDLogVerbose(_:level:context:file:function:line:tag:asynchronous:ddlog:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Any",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "hasDefaultArg": true,
+            "usr": "c:@E@DDLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "hasDefaultArg": true,
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLog",
+            "printedName": "CocoaLumberjack.DDLog",
+            "hasDefaultArg": true,
+            "usr": "c:objc(cs)DDLog"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift12DDLogVerbose_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "mangledName": "$s20CocoaLumberjackSwift12DDLogVerbose_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DDLogError",
+        "printedName": "DDLogError(_:level:context:file:function:line:tag:asynchronous:ddlog:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Any",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLogLevel",
+            "printedName": "CocoaLumberjack.DDLogLevel",
+            "hasDefaultArg": true,
+            "usr": "c:@E@DDLogLevel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "hasDefaultArg": true,
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DDLog",
+            "printedName": "CocoaLumberjack.DDLog",
+            "hasDefaultArg": true,
+            "usr": "c:objc(cs)DDLog"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift10DDLogError_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "mangledName": "$s20CocoaLumberjackSwift10DDLogError_5level7context4file8function4line3tag12asynchronous5ddlogyypyXK_So0D5LevelVSis12StaticStringVANSuypSgSbSo0D0CtF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "Inlinable"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "currentFileName",
+        "printedName": "currentFileName(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift15currentFileNameySSs12StaticStringVF",
+        "mangledName": "$s20CocoaLumberjackSwift15currentFileNameySSs12StaticStringVF",
+        "moduleName": "CocoaLumberjackSwift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "CurrentFileName",
+        "printedName": "CurrentFileName(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StaticString",
+            "printedName": "Swift.StaticString",
+            "hasDefaultArg": true,
+            "usr": "s:s12StaticStringV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20CocoaLumberjackSwift15CurrentFileNameySSs12StaticStringVF",
+        "mangledName": "$s20CocoaLumberjackSwift15CurrentFileNameySSs12StaticStringVF",
+        "moduleName": "CocoaLumberjackSwift",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDLogFlag",
+        "printedName": "DDLogFlag",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "from",
+            "printedName": "from(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogFlag",
+                "printedName": "CocoaLumberjack.DDLogFlag",
+                "usr": "c:@E@DDLogFlag"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogLevel",
+                "printedName": "CocoaLumberjack.DDLogLevel",
+                "usr": "c:@E@DDLogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So9DDLogFlagV20CocoaLumberjackSwiftE4fromyABSo0A5LevelVFZ",
+            "mangledName": "$sSo9DDLogFlagV20CocoaLumberjackSwiftE4fromyABSo0A5LevelVFZ",
+            "moduleName": "CocoaLumberjackSwift",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogFlag",
+                "printedName": "CocoaLumberjack.DDLogFlag",
+                "usr": "c:@E@DDLogFlag"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogLevel",
+                "printedName": "CocoaLumberjack.DDLogLevel",
+                "usr": "c:@E@DDLogLevel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So9DDLogFlagV20CocoaLumberjackSwiftEyABSo0A5LevelVcfc",
+            "mangledName": "$sSo9DDLogFlagV20CocoaLumberjackSwiftEyABSo0A5LevelVcfc",
+            "moduleName": "CocoaLumberjackSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "toLogLevel",
+            "printedName": "toLogLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDLogLevel",
+                "printedName": "CocoaLumberjack.DDLogLevel",
+                "usr": "c:@E@DDLogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So9DDLogFlagV20CocoaLumberjackSwiftE10toLogLevelSo0aH0VyF",
+            "mangledName": "$sSo9DDLogFlagV20CocoaLumberjackSwiftE10toLogLevelSo0aH0VyF",
+            "moduleName": "CocoaLumberjackSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@E@DDLogFlag",
+        "moduleName": "CocoaLumberjack",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "OptionSet",
+            "printedName": "OptionSet",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DDLogFlag",
+                    "printedName": "CocoaLumberjack.DDLogFlag",
+                    "usr": "c:@E@DDLogFlag"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s9OptionSetP",
+            "mangledName": "$ss9OptionSetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SetAlgebra",
+            "printedName": "SetAlgebra",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DDLogFlag",
+                    "printedName": "CocoaLumberjack.DDLogFlag",
+                    "usr": "c:@E@DDLogFlag"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SetAlgebraP",
+            "mangledName": "$ss10SetAlgebraP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DDLogFlag",
+                    "printedName": "CocoaLumberjack.DDLogFlag",
+                    "usr": "c:@E@DDLogFlag"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          }
+        ]
+      }
+    ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/DDAssert.swift",
+      "kind": "StringLiteral",
+      "offset": 1229,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/DDAssert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1287,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/DDAssert.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/DDAssert.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/DDAssert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2089,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/DDAssert.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2220,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2508,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3278,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4228,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4885,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5535,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6197,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6871,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/afsar\/Downloads\/CocoaLumberjack-CART\/Carthage\/Checkouts\/CocoaLumberjack\/Sources\/CocoaLumberjackSwift\/CocoaLumberjack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7117,
+      "length": 5,
+      "value": "false"
+    }
+  ]
 }

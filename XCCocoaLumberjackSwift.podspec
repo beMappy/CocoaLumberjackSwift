@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name     = 'XCCocoaLumberjackSwift'
-  s.version  = '3.7.4-xc14'
+  s.version  = '3.7.4-xc14-2'
   s.license  = 'BSD'
   s.summary  = 'A fast & simple, yet powerful & flexible logging framework for macOS, iOS, tvOS and watchOS.'
   s.homepage = 'https://github.com/CocoaLumberjack/CocoaLumberjack'
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.vendored_frameworks = 'CocoaLumberjackSwift.xcframework'
-  s.dependency 'XCCocoaLumberjack', '3.7.4-xc14'
+  s.dependency 'XCCocoaLumberjack', '3.7.4-xc14-2'
 end
