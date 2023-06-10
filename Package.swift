@@ -25,7 +25,8 @@ let package = Package(
         .target(
             name: "CocoaLumberjackSwiftWrapper",
             dependencies: [
-                .target(name: "CocoaLumberjackSwift")
+                .target(name: "CocoaLumberjackSwift"),
+                .product(name: "CocoaLumberjack", package: "CocoaLumberjack"),
             ]
         ),
         .binaryTarget(
