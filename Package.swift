@@ -13,7 +13,13 @@ let package = Package(
             targets: ["CocoaLumberjackSwiftWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/beMappy/CocoaLumberjack/", exact: "3.7.4-xc14-3"),
+        .package(url: "https://github.com/beMappy/CocoaLumberjack", branch: "SPM"),
+        /*
+        .package(
+            url: "https://github.com/beMappy/CocoaLumberjack",
+            exact: "3.7.4-xc14-3"
+        ),
+         */
     ],
     targets: [
         .target(
