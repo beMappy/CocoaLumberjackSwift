@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "cocoalumberjack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/beMappy/CocoaLumberjack/",
+      "state" : {
+        "revision" : "0a09f74e4bd34dd2f0d59ab6b64bc50c20d8de8b",
+        "version" : "3.7.4-SPM"
+      }
+    }
+  ],
+  "version" : 2
+}
